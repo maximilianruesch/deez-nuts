@@ -3,7 +3,7 @@
     "description": "Deez nuts",
     "license": "MIT",
     "type": "composer-plugin",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Deez Nuts"
