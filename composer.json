@@ -3,11 +3,26 @@
     "description": "Deez nuts",
     "license": "MIT",
     "type": "composer-plugin",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "Deez Nuts"
         }
     ],
-    "require": {},
-    "minimum-stability": "stable"
+    "require": {
+        "php": "^8.2",
+        "composer-plugin-api": "^2.3"
+    },
+    "require-dev": {
+        "composer/composer": "^2.7"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Deez\\Nuts\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Deez\\Nuts\\DeezNutsPlugin"
+    }
 }
