@@ -1,0 +1,13 @@
+{
+    "name": "deez/nuts",
+    "description": "Deez nuts",
+    "license": "MIT",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Deez Nuts"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "stable"
+}
